@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.22)  28 JAN 2019 22:10
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.22)  28 JAN 2019 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -986,7 +986,12 @@ LaTeX Info: Redefining \nameref on input line 38.
 File: images/casanova.jpg Graphic file (type bmp)
 <images/casanova.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--104
+Underfull \hbox (badness 10000) in paragraph at lines 80--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--122
 
  []
 
@@ -997,41 +1002,36 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 109--129
-
- []
-
-
-Underfull \hbox (badness 2111) in paragraph at lines 140--140
+Underfull \hbox (badness 2111) in paragraph at lines 133--133
 \TU/lmss/m/n/12 Experience in project management
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--143
+Underfull \hbox (badness 10000) in paragraph at lines 128--136
 
  []
 
-[2]
-Underfull \hbox (badness 2376) in paragraph at lines 155--155
+
+Underfull \hbox (badness 2376) in paragraph at lines 146--146
 \TU/lmss/m/n/12 PyCharm, Django, PyTest, Flask,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--187
+Underfull \hbox (badness 10000) in paragraph at lines 138--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--200
+Underfull \hbox (badness 10000) in paragraph at lines 164--175
 
  []
 
-[3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
+[2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
  (./cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 220.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 195.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
 
@@ -1040,12 +1040,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 31995 strings out of 492933
- 623180 string characters out of 6132297
- 968341 words of memory out of 5000000
- 35665 multiletter control sequences out of 15000+600000
- 535578 words of font info for 52 fonts, out of 8000000 for 9000
+ 31992 strings out of 492933
+ 623097 string characters out of 6132297
+ 966460 words of memory out of 5000000
+ 35664 multiletter control sequences out of 15000+600000
+ 535570 words of font info for 51 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  69i,13n,69p,790b,1005s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on cv.pdf (3 pages).
+Output written on cv.pdf (2 pages).

@@ -1,0 +1,220 @@
+\documentclass[12pt, letterpaper]{amin-cv}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\usepackage{color}
+\usepackage{atbegshi}
+\usepackage{tikz}
+\usepackage{picture}
+
+\usepackage{fontawesome}
+\usepackage{tabularx}
+\hypersetup{hidelinks=true}
+
+\usepackage{lipsum}
+
+
+\newcommand{\backgroundbox}{%
+	\noindent
+	\colorbox{black!20}{
+		%\framebox[\linewidth]{%
+		\raisebox{0pt}[0pt][\paperheight]{\makebox[5cm]{}}%
+	}\par
+	\colorbox{blue!40}{
+		%\framebox[\linewidth]{%
+		\raisebox{0pt}[0pt][\paperheight]{\makebox[0.5cm]{}}%
+	}\par\medskip%
+}
+
+\AtBeginShipout{%
+	\AtBeginShipoutUpperLeft{%
+		\backgroundbox
+	}%
+}
+
+\begin{document}
+	
+	% In the aside, each new line forces a line break
+	\begin{aside}
+		~
+		\headerLogo{casanova}
+		~
+		\mylogoLink{https://de.wikipedia.org/wiki/Giacomo_Casanova}{Giacomo Casanova}
+		Adventurer
+		 ~
+		 \rule{4cm}{0.4pt}
+		 ~
+		\section{personal info}
+		~
+		Birthday: 02.04.1725
+		Place of birth: Venice
+		Citizenship: Italian
+		Family status: single \newline
+		\textit{Real love is the love that sometimes arises after sensual pleasure: if it does, it is immortal; the other kind inevitably goes stale, for it lies in mere fantasy. }
+		~
+		\rule{4cm}{0.4pt}
+		~
+		\section{contact}
+		~
+		\faMapMarker{} somestreet,
+		12345 someplace
+		\faPhone{} +99 (0) 555 123456
+		\faEnvelope{} giacomo@example.com 
+		~
+		\rule{4cm}{0.4pt}
+		~
+		\section{connect}
+		\begin{tabularx}{3cm}{ XXX }
+			\mylogoLink{https://www.facebook.com/}{\faFacebookSquare} & \mylogoLink{https://github.com/}{\faGithub} & \mylogoLink{https://plus.google.com/}{\faGooglePlusSquare} \tabularnewline
+			\mylogoLink{https://www.linkedin.com/}{\faLinkedinSquare} & \mylogoLink{https://www.xing.com/}{\faXingSquare} & \mylogoLink{https://www.youtube.com/}{\faYoutubeSquare} \tabularnewline
+			\centering{.} & \mylogoLink{https://stackoverflow.com/}{\faStackOverflow} & \centering{.} \tabularnewline
+		\end{tabularx}
+		~
+	\end{aside}
+~
+\section{\faBriefcase}{Experience}
+
+\begin{entrylist}
+	\entry
+	{05/1769 -\\ Now}
+	{Role Name}
+	{Company Name}
+	{City Name}
+	{Short introduction of the company to know what they do}
+	{Description of the role, tasks and accomplishments. \lipsum[2-2]}
+	\entry
+	{08/1750 -\\ 04/1769}
+	{Role Name}
+	{Company Name}
+	{City Name}
+	{Short introduction of the company to know what they do}
+	{Description of the role, tasks and accomplishments. \lipsum[2-2]}
+	\entry
+	{05/1740 -\\ 07/1750}
+	{Role Name}
+	{Company Name}
+	{City Name}
+	{Short introduction of the company to know what they do}
+	{Description of the role, tasks and accomplishments. \lipsum[2-2]}
+	
+\end{entrylist}
+\newpage
+
+
+\section{\faBook}{Education}
+
+\begin{entrylist}
+	\entry
+	{08/2016 -\\ 11/2016}
+	{Some College Degree}
+	{Collage Name}
+	{Place of College}
+	{Some additional short description}
+	{Description of the role, tasks and accomplishments. \lipsum[2-2]}
+	
+	\entry
+	{08/2016 -\\ 11/2016}
+	{Some Highschool Degree}
+	{Highschool Name}
+	{Place of School}
+	{Some additional short description}
+	{Description of the role, tasks and accomplishments. \lipsum[2-2]}
+	
+	
+	
+\end{entrylist}
+
+
+
+\section{\faTasks}{Skills}
+
+\subsection{Management}
+\begin{entrylist}
+	
+	\entrySmall
+	{Project management professional}
+	{0.85}
+	{Experience in project management across all process groups.}
+	
+\end{entrylist}
+
+\newpage
+
+\subsection{IT skills}
+\begin{entrylist}
+	
+	\entrySmallDouble
+	{Python}
+	{0.50}
+	{PyCharm, Django, PyTest, Flask, VCR, sqlalchmey, python requests}
+	{PaaS}
+	{0.25}
+	{Google Cloud, AWS, Heroku}
+	
+	\entrySmallDouble
+	{Java}
+	{0.50}
+	{IntelliJ, Spring, SpringBoot, Maven, Gradle, Jpa, JUnit}
+	{C, C++}
+	{0.25}
+	{}
+	
+	\entrySmallDouble
+	{Databases}
+	{0.50}
+	{MySQL, Microsoft SQL, H2}
+	{Web}
+	{0.50}
+	{HTML, CSS, JS, Bootstrap, JQuery, PHP, Apache}
+	
+	\entrySmallDouble
+	{Microsoft Office \& Docs}
+	{0.75}
+	{\LaTeX, Excel, PowerPoint, Visio, Word}
+	{SAP}
+	{0.50}
+	{Knowledge about database structures across all modules. Process knowledge in the modules FI, CO and PS.}
+	
+	\entrySmall
+	{Network \& Security}
+	{0.20}
+	{Ethernet, TCP/IP, Wireshark, RSA, Blockchain}
+	
+\end{entrylist}
+
+\subsection{Languages}
+\begin{entrylist}
+	
+	\entrySmallDouble
+	{Italian}
+	{1.00}
+	{mother tongue}
+	{French}
+	{0.95}
+	{business fluent}
+	
+\end{entrylist}
+
+\section{\faStarO}{Interests}
+\parbox[t]{6.5cm}{%
+	\textbf{Poetry}%
+	\hfill\\%
+	Won some championship. \vspace{\parsep}%
+}
+\hskip 1em
+\parbox[t]{6.5cm}{%
+	\textbf{Trainer}%
+	\hfill\\%
+	Trainer of some dancing classes. \vspace{\parsep}%
+}
+\newline
+\parbox[t]{6.5cm}{%
+	\textbf{Lectureship}%
+	\hfill\\%
+	Lecturer at some school. \vspace{\parsep}%
+}
+
+\end{document}
